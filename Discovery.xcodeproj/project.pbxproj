@@ -15,6 +15,8 @@
 		3AB13AED262154ED00CBD672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB13AEB262154ED00CBD672 /* LaunchScreen.storyboard */; };
 		3AB13AF8262154ED00CBD672 /* DiscoveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB13AF7262154ED00CBD672 /* DiscoveryTests.swift */; };
 		3AB13B03262154ED00CBD672 /* DiscoveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB13B02262154ED00CBD672 /* DiscoveryUITests.swift */; };
+		3AB13B342622BF7400CBD672 /* CorrectLetterSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3AB13B332622BF7400CBD672 /* CorrectLetterSound.mp3 */; };
+		3AB13B392622C3DE00CBD672 /* WrongLetterSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3AB13B382622C3DE00CBD672 /* WrongLetterSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3AB13AFE262154ED00CBD672 /* DiscoveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB13B02262154ED00CBD672 /* DiscoveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryUITests.swift; sourceTree = "<group>"; };
 		3AB13B04262154ED00CBD672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB13B332622BF7400CBD672 /* CorrectLetterSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CorrectLetterSound.mp3; sourceTree = "<group>"; };
+		3AB13B382622C3DE00CBD672 /* WrongLetterSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WrongLetterSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				3AB13AE0262154EB00CBD672 /* AppDelegate.swift */,
 				3AB13AE2262154EB00CBD672 /* ViewController.swift */,
+				3AB13B382622C3DE00CBD672 /* WrongLetterSound.mp3 */,
+				3AB13B332622BF7400CBD672 /* CorrectLetterSound.mp3 */,
 				3AB13AE4262154EB00CBD672 /* Experience.rcproject */,
 				3AB13AE6262154EB00CBD672 /* Main.storyboard */,
 				3AB13AE9262154ED00CBD672 /* Assets.xcassets */,
@@ -231,9 +237,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB13B392622C3DE00CBD672 /* WrongLetterSound.mp3 in Resources */,
 				3AB13AED262154ED00CBD672 /* LaunchScreen.storyboard in Resources */,
 				3AB13AEA262154ED00CBD672 /* Assets.xcassets in Resources */,
 				3AB13AE8262154EB00CBD672 /* Main.storyboard in Resources */,
+				3AB13B342622BF7400CBD672 /* CorrectLetterSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
